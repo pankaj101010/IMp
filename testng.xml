@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1">
+ <test  name="Test1">
+<groups> 
+<run>
+<include name = "Ab"/>
+</run>
+</groups>
+    <classes>
+      <class name="testNgtest.A2"/>
+      <class name="testNgtest.A1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
